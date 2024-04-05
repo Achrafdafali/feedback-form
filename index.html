@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Feedback From</h1>
+        <p>We would love to hear your thoughts, suggestions, concerns or problems with anything so we can improve!</p>
+        <hr>
+        <h3>Feedback Type</h3>
+        <div class="inputs">
+            <div class="input">
+                <input type="radio" name="type">
+                <span>Comments</span>
+            </div>
+            <div class="input">
+               <input type="radio" name="type">
+                <span>Suggestions</span>
+            </div>
+            <div class="input">
+                <input type="radio" name="type">
+                 <span>Questions</span>
+             </div>
+             <div class="input">
+                <input type="radio" name="type">
+                 <span>Other</span>
+             </div>
+        </div>
+        <div class="title">
+            <h3>Describe Your Feedback: <span class="asterisk">*</span></h3>
+            <textarea maxlength="300"></textarea>
+        </div>
+        <div class="title">
+            <h3>Name <span class="asterisk">*</span></h3>
+            <div class="fname">
+                <input type="text">
+                <span>First name</span>
+            </div>
+            <div class="lname">
+                <input type="text">
+                <span>Last name</span>
+            </div>
+        </div>
+        <div class="title">
+            <h3>Email <span class="asterisk">*</span></h3>
+            <input type="email" class="mail">
+        </div>
+        <button>Submit</button>
+    </div>
+</body>
+</html>

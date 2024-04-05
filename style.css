@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: inter, sans-serif;
+}
+
+body > * {
+    padding: 15px 0 0 15px;
+    color: #2c3345;
+}
+
+.container {
+    width: 70vw;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+hr {
+    margin: 25px 0;
+}
+
+.title, .title> *:first-child {
+    margin: 25px 0;
+}
+
+.inputs {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px 0;
+}
+
+.asterisk {
+    color: orangered;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    font-size: 1.5rem;
+    padding: 15px;
+}
+
+.fname, .lname {
+    display: flex;
+    flex-direction: column;
+}
+
+.fname input, .lname input {
+    margin-top: 5px;
+    padding: 5px;
+    font-size: 1.2rem;
+}
+
+.mail {
+    padding: 5px;
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+button {
+    width: 50%;
+    margin-left: 25%;
+    background: rgb(103, 167, 103);
+    color: #ddd;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+@media(max-width: 767px) {
+    .container {
+        width: 100%;
+    }
+    .inputs {
+        flex-direction: column;
+    }
+    .inputs > * {
+        margin-bottom: 10px;
+        font-size: 1.2rem;
+    }
+}
